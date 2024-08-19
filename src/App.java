@@ -18,8 +18,6 @@ public class App {
 
 
         ko=scnr.nextLine();
-    }
-
+    }   
 
 }
-
