@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "testing3",
+            "request": "launch",
+            "mainClass": "testing3",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
+            "name": "mergingArrays2",
+            "request": "launch",
+            "mainClass": "mergingArrays2",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
+            "name": "mergingArrays",
+            "request": "launch",
+            "mainClass": "mergingArrays",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
+            "name": "twodArray",
+            "request": "launch",
+            "mainClass": "twodArray",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
             "name": "binaryConversion",
             "request": "launch",
             "mainClass": "binaryConversion",

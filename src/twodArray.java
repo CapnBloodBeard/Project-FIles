@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*Write a program that defines two two dimension aarrays of numbers the program should display the sum ad differene of these matrixes. The Program  */
 public class twodArray {
     public static void main(String[] args) {
-        Scanner scan =  new Scanner(System.in);
+        Scanner     scan =  new Scanner(System.in);
         Random rand  = new Random();
         int r=0,c=0;
         System.err.print("Enter no of rows: ");         r = scan.nextInt();
@@ -38,16 +38,8 @@ public class twodArray {
             }
             System.err.print("\n");
         }
-        
-
-        System.err.println("\n ");
-
-        addition(ary,ary2,r,c);
-
-        System.err.println("\n ");
-
-        transpose(ary,ary2,r,c);
-        
+        System.err.println("\n ");  addition(ary,ary2,r,c);
+        System.err.println("\n ");  transpose(ary,ary2,r,c);
         System.err.println("==============================================================================");
     }
 
@@ -77,15 +69,12 @@ public class twodArray {
     public static void transpose(int[][] arr1, int[][] arr2 , int r,int c) {  
         int[][] trns_arr_A = new int[c][r];
         int[][] trns_arr_B = new int[c][r];
-
         for (int i=0;i<c;i++){
             for (int j=0;j<r;j++){
-
                 trns_arr_A[i][j] = arr1[j][i];
                 trns_arr_B[i][j] = arr2[j][i];        
             }
         }
-
         System.err.print("\n Transpose of Array-A: \n");
         for (int i=0; i<c; i++){
             for (int j=0;j<r;j++){
@@ -93,7 +82,6 @@ public class twodArray {
             }
             System.err.print("\n");
         }
-
         System.err.print("\n Transpose of Array-B: \n");
         for (int i=0; i<c; i++){
             for (int j=0;j<r;j++){
@@ -103,6 +91,10 @@ public class twodArray {
         }
     }
 
-    
+    public static void Multiply(int[][] arr1, int[][] arr2 , int r,int c) {
+        int[][] Multi_ans = new int[r][c];
+        
+
+    }
 
 }
