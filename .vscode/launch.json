@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Double_to_Binary",
+            "request": "launch",
+            "mainClass": "Double_to_Binary",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
+            "name": "Double_Binary",
+            "request": "launch",
+            "mainClass": "Double_Binary",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
+            "name": "MathUtil",
+            "request": "launch",
+            "mainClass": "MathUtil",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
+            "name": "LargeNumbers2",
+            "request": "launch",
+            "mainClass": "LargeNumbers2",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
             "name": "testing3",
             "request": "launch",
             "mainClass": "testing3",
