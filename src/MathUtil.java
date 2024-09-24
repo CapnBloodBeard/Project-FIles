@@ -151,9 +151,6 @@ public static void main(String[] args) {
     patternPrintStr(enter_value);
     doubleToBinary(doubleInt);
 
-
-
-
-}
+    }
 }
 

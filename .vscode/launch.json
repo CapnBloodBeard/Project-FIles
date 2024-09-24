@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "methodtest",
+            "request": "launch",
+            "mainClass": "methodtest",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
             "name": "Double_to_Binary",
             "request": "launch",
             "mainClass": "Double_to_Binary",

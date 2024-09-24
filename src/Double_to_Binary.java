@@ -32,8 +32,7 @@ class Double_to_Binary{
 
 
         if (dbintDEC!=0) {
-            for (int f =0; 20 >= 0; f++) {
-                if (f==20) {break;}
+            for (int f =0; 21 >= f; f++) {
                 System.out.print(binArrDEC[f] + " ");
             }
             System.err.println('\n');

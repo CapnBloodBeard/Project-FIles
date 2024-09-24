@@ -6,8 +6,6 @@ public class binaryConversion {
         int input_number = scan.nextInt();
         Conversion(input_number);
         
-
-
     }
 
     public static int Conversion(int intnumber) {
