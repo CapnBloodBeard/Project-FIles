@@ -10,10 +10,6 @@ public class App {
         String greet = "hello";
 
         System.out.println("Number is "+ greet);
-
-        String ok = "hmm";
-        String ko = "mmmh";
-
         Scanner scnr = new Scanner(System.in);
 
 

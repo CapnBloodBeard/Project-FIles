@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StopWatch",
+            "request": "launch",
+            "mainClass": "StopWatch",
+            "projectName": "Project FIles_c63ac6be"
+        },
+        {
+            "type": "java",
             "name": "methodtest",
             "request": "launch",
             "mainClass": "methodtest",
